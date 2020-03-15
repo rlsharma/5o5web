@@ -30,6 +30,7 @@ steps:
 
 -task: PublishPipelineArtifacts@1
 
+
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
