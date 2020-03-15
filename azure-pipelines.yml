@@ -28,7 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
--task: PublishPipelineArtifacts@1
+
 
 
 - task: VSTest@2
